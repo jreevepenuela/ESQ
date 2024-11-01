@@ -13,7 +13,7 @@ namespace AISDisputeButton
 
         public PXAction<ARInvoice> Dispute;
         [PXButton(CommitChanges = true)]
-        [PXUIField(DisplayName = "Dispute")]
+        [PXUIField(DisplayName = "Dispute", Visible = false)]
         protected void dispute()
         {
             ARInvoice row = Base.Document.Current;
@@ -67,6 +67,16 @@ namespace AISDisputeButton
             }
            
 
+        }
+
+        protected void ARInvoice_RowSelected(PXCache cache, PXRowSelectedEventArgs e)
+        {
+            var row = (ARInvoice)e.Row;
+
+            if (row == null) return;
+
+            if (row.Status.Equals("N"))
+                Dispute.SetVisible(true);
         }
     }
 }

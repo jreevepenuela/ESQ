@@ -7,7 +7,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "taylormade", "http://localh
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "false"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
-		ProjectReferences = "{3ee0afcb-aaa7-40bc-b2ed-89b78c598861}|AISDisputeButton.dll;"
+		ProjectReferences = "{3ee0afcb-aaa7-40bc-b2ed-89b78c598861}|AISDisputeButton.dll;{49df4e20-84e4-4660-831d-61cc6dc5683b}|AISPastDueBalance.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/taylormade"
 		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Acumatica ERP\taylormade\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\taylormade\"
@@ -27,6 +27,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "taylormade", "http://localh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AISDisputeButton", "AISDisputeButton\AISDisputeButton.csproj", "{3EE0AFCB-AAA7-40BC-B2ED-89B78C598861}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AISPastDueBalance", "AISPastDueBalance\AISPastDueBalance.csproj", "{49DF4E20-84E4-4660-831D-61CC6DC5683B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{3EE0AFCB-AAA7-40BC-B2ED-89B78C598861}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EE0AFCB-AAA7-40BC-B2ED-89B78C598861}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EE0AFCB-AAA7-40BC-B2ED-89B78C598861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49DF4E20-84E4-4660-831D-61CC6DC5683B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49DF4E20-84E4-4660-831D-61CC6DC5683B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49DF4E20-84E4-4660-831D-61CC6DC5683B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49DF4E20-84E4-4660-831D-61CC6DC5683B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

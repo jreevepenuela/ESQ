@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "taylormade", "http://localhost/taylormade", "{36D3EEB4-847B-44F5-9D16-F5D197584A7C}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		ProjectReferences = "{3ee0afcb-aaa7-40bc-b2ed-89b78c598861}|AISDisputeButton.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/taylormade"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Acumatica ERP\taylormade\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\taylormade\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/taylormade"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Acumatica ERP\taylormade\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\taylormade\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\Acumatica ERP\taylormade\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AISDisputeButton", "AISDisputeButton\AISDisputeButton.csproj", "{3EE0AFCB-AAA7-40BC-B2ED-89B78C598861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36D3EEB4-847B-44F5-9D16-F5D197584A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D3EEB4-847B-44F5-9D16-F5D197584A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D3EEB4-847B-44F5-9D16-F5D197584A7C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D3EEB4-847B-44F5-9D16-F5D197584A7C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3EE0AFCB-AAA7-40BC-B2ED-89B78C598861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE0AFCB-AAA7-40BC-B2ED-89B78C598861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE0AFCB-AAA7-40BC-B2ED-89B78C598861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE0AFCB-AAA7-40BC-B2ED-89B78C598861}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D779BDE-06F8-4195-9370-1C3F84A5F856}
+	EndGlobalSection
+EndGlobal
